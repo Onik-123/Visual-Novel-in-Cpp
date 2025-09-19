@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 // -------------------- //
 
@@ -7,8 +8,8 @@
 #include "dialogueSystem.hpp"
 
 class Engine {
-	public:
-		Init();
-
-		LoopTime();
+public:
+    void Init();
+    void LoopTime();
+    std::vector<std::string> stageTexts;
 };

@@ -9,6 +9,11 @@ Mikoo: Beyond the Hills - is a visual novel game, made with Indigo Engine (1)
 
 Game's engine components:
 
-engine.hpp - all game logic by programmed stages
-player.hpp - is the player's "subconscious", including progress and invetory
-dialogueSystem - all predefinied text for making game more alive
+**main.cpp** - all stuff is initialized here
+
+**engine.hpp** - all game logic by programmed stages
+
+**player.hpp** - is the player's "subconscious", including progress and invetory
+
+**dialogueSystem.hpp** - all predefinied text for making game more alive
+

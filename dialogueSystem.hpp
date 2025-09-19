@@ -1,8 +1,11 @@
 #pragma once
 
-class dialogueSystem {
-	public:
-		string player;
-		string enemy;
-		string narrator;
-}
+#include <iostream>
+#include <string>
+
+class DialogueSystem {
+public:
+    void showText(const std::string& text) {
+        std::cout << text << std::endl;
+    }
+};
